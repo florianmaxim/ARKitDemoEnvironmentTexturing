@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1723BEA12114AC12007CDEE6 /* screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1723BEA02114AC12007CDEE6 /* screen.jpg */; };
 		17C8889B2114786A007AE2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8889A2114786A007AE2C3 /* AppDelegate.swift */; };
 		17C8889D2114786A007AE2C3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C8889C2114786A007AE2C3 /* art.scnassets */; };
 		17C8889F2114786A007AE2C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8889E2114786A007AE2C3 /* ViewController.swift */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1723BE9F2114AA15007CDEE6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1723BEA02114AC12007CDEE6 /* screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen.jpg; sourceTree = "<group>"; };
 		17C888972114786A007AE2C3 /* ARKitDemoEnvironmentTexturing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemoEnvironmentTexturing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C8889A2114786A007AE2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17C8889C2114786A007AE2C3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 		17C8888E21147869007AE2C3 = {
 			isa = PBXGroup;
 			children = (
+				1723BEA02114AC12007CDEE6 /* screen.jpg */,
+				1723BE9F2114AA15007CDEE6 /* README.md */,
 				17C888992114786A007AE2C3 /* ARKitDemoEnvironmentTexturing */,
 				17C888B02114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests */,
 				17C888BB2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests */,
@@ -234,6 +239,7 @@
 			files = (
 				17C8889D2114786A007AE2C3 /* art.scnassets in Resources */,
 				17C888A72114786C007AE2C3 /* LaunchScreen.storyboard in Resources */,
+				1723BEA12114AC12007CDEE6 /* screen.jpg in Resources */,
 				17C888A42114786C007AE2C3 /* Assets.xcassets in Resources */,
 				17C888A22114786A007AE2C3 /* Main.storyboard in Resources */,
 			);
