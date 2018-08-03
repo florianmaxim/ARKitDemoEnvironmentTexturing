@@ -2,7 +2,7 @@
 
 Basic demonstration of ARKit's incredible environment texturing
 
-'''swift
+'''script
 let configuration = ARWorldTrackingConfiguration()
 configuration.environmentTexturing = .automatic
 '''
