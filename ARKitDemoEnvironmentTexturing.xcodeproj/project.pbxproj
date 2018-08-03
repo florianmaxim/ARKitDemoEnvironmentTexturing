@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C8889B2114786A007AE2C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8889A2114786A007AE2C3 /* AppDelegate.swift */; };
+		17C8889D2114786A007AE2C3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C8889C2114786A007AE2C3 /* art.scnassets */; };
+		17C8889F2114786A007AE2C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C8889E2114786A007AE2C3 /* ViewController.swift */; };
+		17C888A22114786A007AE2C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C888A02114786A007AE2C3 /* Main.storyboard */; };
+		17C888A42114786C007AE2C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C888A32114786C007AE2C3 /* Assets.xcassets */; };
+		17C888A72114786C007AE2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C888A52114786C007AE2C3 /* LaunchScreen.storyboard */; };
+		17C888B22114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C888B12114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests.swift */; };
+		17C888BD2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C888BC2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C888AE2114786D007AE2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C8888F21147869007AE2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C8889621147869007AE2C3;
+			remoteInfo = ARKitDemoEnvironmentTexturing;
+		};
+		17C888B92114786D007AE2C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C8888F21147869007AE2C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C8889621147869007AE2C3;
+			remoteInfo = ARKitDemoEnvironmentTexturing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C888972114786A007AE2C3 /* ARKitDemoEnvironmentTexturing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemoEnvironmentTexturing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C8889A2114786A007AE2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17C8889C2114786A007AE2C3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		17C8889E2114786A007AE2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17C888A12114786A007AE2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C888A32114786C007AE2C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C888A62114786C007AE2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17C888A82114786C007AE2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C888AD2114786C007AE2C3 /* ARKitDemoEnvironmentTexturingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoEnvironmentTexturingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C888B12114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoEnvironmentTexturingTests.swift; sourceTree = "<group>"; };
+		17C888B32114786D007AE2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C888B82114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoEnvironmentTexturingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C888BC2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoEnvironmentTexturingUITests.swift; sourceTree = "<group>"; };
+		17C888BE2114786D007AE2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C8889421147869007AE2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C888AA2114786C007AE2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C888B52114786D007AE2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C8888E21147869007AE2C3 = {
+			isa = PBXGroup;
+			children = (
+				17C888992114786A007AE2C3 /* ARKitDemoEnvironmentTexturing */,
+				17C888B02114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests */,
+				17C888BB2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests */,
+				17C888982114786A007AE2C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C888982114786A007AE2C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C888972114786A007AE2C3 /* ARKitDemoEnvironmentTexturing.app */,
+				17C888AD2114786C007AE2C3 /* ARKitDemoEnvironmentTexturingTests.xctest */,
+				17C888B82114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C888992114786A007AE2C3 /* ARKitDemoEnvironmentTexturing */ = {
+			isa = PBXGroup;
+			children = (
+				17C8889A2114786A007AE2C3 /* AppDelegate.swift */,
+				17C8889C2114786A007AE2C3 /* art.scnassets */,
+				17C8889E2114786A007AE2C3 /* ViewController.swift */,
+				17C888A02114786A007AE2C3 /* Main.storyboard */,
+				17C888A32114786C007AE2C3 /* Assets.xcassets */,
+				17C888A52114786C007AE2C3 /* LaunchScreen.storyboard */,
+				17C888A82114786C007AE2C3 /* Info.plist */,
+			);
+			path = ARKitDemoEnvironmentTexturing;
+			sourceTree = "<group>";
+		};
+		17C888B02114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests */ = {
+			isa = PBXGroup;
+			children = (
+				17C888B12114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests.swift */,
+				17C888B32114786D007AE2C3 /* Info.plist */,
+			);
+			path = ARKitDemoEnvironmentTexturingTests;
+			sourceTree = "<group>";
+		};
+		17C888BB2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17C888BC2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.swift */,
+				17C888BE2114786D007AE2C3 /* Info.plist */,
+			);
+			path = ARKitDemoEnvironmentTexturingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C8889621147869007AE2C3 /* ARKitDemoEnvironmentTexturing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C888C12114786D007AE2C3 /* Build configuration list for PBXNativeTarget "ARKitDemoEnvironmentTexturing" */;
+			buildPhases = (
+				17C8889321147869007AE2C3 /* Sources */,
+				17C8889421147869007AE2C3 /* Frameworks */,
+				17C8889521147869007AE2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARKitDemoEnvironmentTexturing;
+			productName = ARKitDemoEnvironmentTexturing;
+			productReference = 17C888972114786A007AE2C3 /* ARKitDemoEnvironmentTexturing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C888AC2114786C007AE2C3 /* ARKitDemoEnvironmentTexturingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C888C42114786D007AE2C3 /* Build configuration list for PBXNativeTarget "ARKitDemoEnvironmentTexturingTests" */;
+			buildPhases = (
+				17C888A92114786C007AE2C3 /* Sources */,
+				17C888AA2114786C007AE2C3 /* Frameworks */,
+				17C888AB2114786C007AE2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C888AF2114786D007AE2C3 /* PBXTargetDependency */,
+			);
+			name = ARKitDemoEnvironmentTexturingTests;
+			productName = ARKitDemoEnvironmentTexturingTests;
+			productReference = 17C888AD2114786C007AE2C3 /* ARKitDemoEnvironmentTexturingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17C888B72114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C888C72114786D007AE2C3 /* Build configuration list for PBXNativeTarget "ARKitDemoEnvironmentTexturingUITests" */;
+			buildPhases = (
+				17C888B42114786D007AE2C3 /* Sources */,
+				17C888B52114786D007AE2C3 /* Frameworks */,
+				17C888B62114786D007AE2C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C888BA2114786D007AE2C3 /* PBXTargetDependency */,
+			);
+			name = ARKitDemoEnvironmentTexturingUITests;
+			productName = ARKitDemoEnvironmentTexturingUITests;
+			productReference = 17C888B82114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C8888F21147869007AE2C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Florian;
+				TargetAttributes = {
+					17C8889621147869007AE2C3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					17C888AC2114786C007AE2C3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17C8889621147869007AE2C3;
+					};
+					17C888B72114786D007AE2C3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17C8889621147869007AE2C3;
+					};
+				};
+			};
+			buildConfigurationList = 17C8889221147869007AE2C3 /* Build configuration list for PBXProject "ARKitDemoEnvironmentTexturing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C8888E21147869007AE2C3;
+			productRefGroup = 17C888982114786A007AE2C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C8889621147869007AE2C3 /* ARKitDemoEnvironmentTexturing */,
+				17C888AC2114786C007AE2C3 /* ARKitDemoEnvironmentTexturingTests */,
+				17C888B72114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C8889521147869007AE2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C8889D2114786A007AE2C3 /* art.scnassets in Resources */,
+				17C888A72114786C007AE2C3 /* LaunchScreen.storyboard in Resources */,
+				17C888A42114786C007AE2C3 /* Assets.xcassets in Resources */,
+				17C888A22114786A007AE2C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C888AB2114786C007AE2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C888B62114786D007AE2C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C8889321147869007AE2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C8889F2114786A007AE2C3 /* ViewController.swift in Sources */,
+				17C8889B2114786A007AE2C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C888A92114786C007AE2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C888B22114786D007AE2C3 /* ARKitDemoEnvironmentTexturingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C888B42114786D007AE2C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C888BD2114786D007AE2C3 /* ARKitDemoEnvironmentTexturingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C888AF2114786D007AE2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C8889621147869007AE2C3 /* ARKitDemoEnvironmentTexturing */;
+			targetProxy = 17C888AE2114786D007AE2C3 /* PBXContainerItemProxy */;
+		};
+		17C888BA2114786D007AE2C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C8889621147869007AE2C3 /* ARKitDemoEnvironmentTexturing */;
+			targetProxy = 17C888B92114786D007AE2C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C888A02114786A007AE2C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C888A12114786A007AE2C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17C888A52114786C007AE2C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C888A62114786C007AE2C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C888BF2114786D007AE2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17C888C02114786D007AE2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C888C22114786D007AE2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33YL27GJ5C;
+				INFOPLIST_FILE = ARKitDemoEnvironmentTexturing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianmaxim.ARKitDemoEnvironmentTexturing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C888C32114786D007AE2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33YL27GJ5C;
+				INFOPLIST_FILE = ARKitDemoEnvironmentTexturing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianmaxim.ARKitDemoEnvironmentTexturing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17C888C52114786D007AE2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33YL27GJ5C;
+				INFOPLIST_FILE = ARKitDemoEnvironmentTexturingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianmaxim.ARKitDemoEnvironmentTexturingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitDemoEnvironmentTexturing.app/ARKitDemoEnvironmentTexturing";
+			};
+			name = Debug;
+		};
+		17C888C62114786D007AE2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33YL27GJ5C;
+				INFOPLIST_FILE = ARKitDemoEnvironmentTexturingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianmaxim.ARKitDemoEnvironmentTexturingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKitDemoEnvironmentTexturing.app/ARKitDemoEnvironmentTexturing";
+			};
+			name = Release;
+		};
+		17C888C82114786D007AE2C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33YL27GJ5C;
+				INFOPLIST_FILE = ARKitDemoEnvironmentTexturingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianmaxim.ARKitDemoEnvironmentTexturingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitDemoEnvironmentTexturing;
+			};
+			name = Debug;
+		};
+		17C888C92114786D007AE2C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33YL27GJ5C;
+				INFOPLIST_FILE = ARKitDemoEnvironmentTexturingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.florianmaxim.ARKitDemoEnvironmentTexturingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARKitDemoEnvironmentTexturing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C8889221147869007AE2C3 /* Build configuration list for PBXProject "ARKitDemoEnvironmentTexturing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C888BF2114786D007AE2C3 /* Debug */,
+				17C888C02114786D007AE2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C888C12114786D007AE2C3 /* Build configuration list for PBXNativeTarget "ARKitDemoEnvironmentTexturing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C888C22114786D007AE2C3 /* Debug */,
+				17C888C32114786D007AE2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C888C42114786D007AE2C3 /* Build configuration list for PBXNativeTarget "ARKitDemoEnvironmentTexturingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C888C52114786D007AE2C3 /* Debug */,
+				17C888C62114786D007AE2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C888C72114786D007AE2C3 /* Build configuration list for PBXNativeTarget "ARKitDemoEnvironmentTexturingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C888C82114786D007AE2C3 /* Debug */,
+				17C888C92114786D007AE2C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C8888F21147869007AE2C3 /* Project object */;
+}
